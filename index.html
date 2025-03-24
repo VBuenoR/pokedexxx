@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+
+    <link rel="icon" href="favicons/favicon-16x16.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stylemenu.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+</head>
+<body>
+     
+    <img class="campobackground" src="imagem/campobackground.png" alt="">
+    
+    <nav class="menu_lateral">
+        <div class="btn-expandir">
+            <i class="bi bi-info-circle-fill"></i>
+        </div>
+
+        <div class="damage-relations">
+            <div class="type-relation">
+              <h3 class="relation-title">Tipo</h3>
+              <div class="relation-content">
+                <div class="relation-strong">
+                  <p><strong>Forte contra:</strong></p>
+                  <div class="relation-list strong-list">
+                  </div>
+                </div>
+                <div class="relation-weak">
+                  <p><strong>Fraco contra:</strong></p>
+                  <div class="relation-list weak-list">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>  
+    </nav>
+
+        
+
+    <main>
+        
+        <img src="" alt="Sem Imagem" class="pokemonImg">
+
+        <h1 class="pokemon_data">
+            <span class="pokemon_id"></span> - 
+            <span class="pokemon_name"></span>
+        </h1>
+
+        <form class="form">
+            <input type="search" class="input_search" placeholder="Procure seu Pokemon por Nome ou ID" required>
+        </form>
+        
+        <h2 class="pokemon_tipo"> 
+            <div>
+                <img id="tipo1-img" src="" alt="" style="width: 20px; margin-bottom: -2px;">
+                <span class="tipo1" style="text-transform: capitalize;"></span>
+            </div>
+            <div>  
+                <img id="tipo2-img" src="" alt="" style="width: 20px; margin-bottom: -2px;">
+                <span class="tipo2" style="text-transform: capitalize;"></span>
+            </div>
+        </h2>
+        
+
+        <div class="buttons">
+            <button class="button btn-prev">&lt; Anterior </button>
+            <button class="button btn-next">Próximo &gt; </button>
+        </div>
+
+        <img src="imagem/pokedex.png" alt="pokedex" class="pokedexImg">
+
+      
+
+
+    </main>
+
+    
+    <script src="script.js"></script>
+    <script src="scriptmenu.js"></script>
+</body>
+</html>
